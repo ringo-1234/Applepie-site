@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RTM-Plus | Features</title>
+    <style>
+      body {
+        background: #0b0b12;
+        color: #e9e9f2;
+        font-family: Inter, sans-serif;
+        margin: 0;
+      }
+      header {
+        background: #10101a;
+        border-bottom: 1px solid #26263a;
+        padding: 14px 22px;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .menu a {
+        color: #e9e9f2;
+        text-decoration: none;
+        margin-left: 16px;
+        padding: 8px 12px;
+        border-radius: 8px;
+        transition: background 0.2s;
+      }
+      .menu a:hover {
+        background: rgba(138, 43, 226, 0.25);
+      }
+      main {
+        max-width: 800px;
+        margin: 60px auto;
+        padding: 0 22px;
+      }
+      h1 {
+        color: #b26ff8;
+        margin-bottom: 20px;
+      }
+      section {
+        margin: 30px 0;
+        padding: 20px;
+        background: #141422;
+        border: 1px solid #26263a;
+        border-radius: 12px;
+      }
+      section h2 {
+        margin-top: 0;
+        color: #b26ff8;
+      }
+      footer {
+        margin-top: 60px;
+        border-top: 1px solid #26263a;
+        padding: 20px;
+        text-align: center;
+        color: #b7b7c7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="title">RTM-Plus</div>
+        <div class="menu">
+          <a href="../index.html">Home</a>
+          <a href="index.html">RTM-Plus</a>
+          <a href="../about/index.html">About</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>RTM-Plus 追加内容</h1>
+      <p>ここではRTM-Plusで追加される機能や拡張要素を解説します。</p>
+
+      <section>
+        <h2>交互切り替え方向幕</h2>
+        <p>主に英語と日本語の方向幕を交互に表示するために追加した機能です。</p>
+        <p>
+          使用方法：従来のrollsign系のkeyに2をつけ足すことで実装可能、"rollsignTexture2"など
+          "rollsignAlternateCycle":
+          3000と記入することでサイクル時間を変更できる、値はミリ秒
+        </p>
+      </section>
+    </main>
+
+    <footer>© 2025 Applepie — RTM-Plus</footer>
+  </body>
+</html>
