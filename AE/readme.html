@@ -122,6 +122,16 @@
         公開にあたり、配布許可を頂いた<a href="https://twitter.com/ngt5479">NGT-547</a> 様に、この場をお借りして感謝申し上げます。<br>
         また、当改造物の開発にあたり、多大なる助言と支援を 頂いた<a href="https://x.com/kakerigawa">anatawa12</a> 様に、この場をお借りして感謝申し上げます。
     </p>
+    <h2>各機能使用方法</h2>
+    <h3>APIについて</h3>
+    <h5>共通："importPackage(Packages.jp.apple.api);"</h5>
+    <ul>
+          <li>Delay.call(task,ms); => setTimeout();の派生版的な。第一引数にはコールバック関数を用いる</li>
+          <li>Pulse.call(current); => 引数の値がfalseからtrueに変わった瞬間のみtrueを返す</li>
+          <li>Interval.rise(ms); => 引数のms毎にtrueを一瞬だけ返す</li>
+          <li>Interval.fall(ms); => 引数のms毎にfalseを一瞬だけ返す</li>
+          <li>Interval.toggle(ms); => 引数のms毎にtrue/falseを切り替える</li>
+        </ul>
         </p>
       </section>
     </main>
